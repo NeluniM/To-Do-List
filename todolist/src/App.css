@@ -1,0 +1,112 @@
+/* Apply darkening effect to the background image */
+body {
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+  background-image: url('../images/image.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* To position the overlay relative to the body */
+}
+
+/* Darken the background image using a pseudo-element */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: -1; /* Ensures the overlay is behind the content */
+}
+
+h2 {
+  font-size: 50px;
+}
+ input{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 25px;
+ }
+p{
+  font-size: 25px;
+}
+/* Create the container for the main content */
+.home {
+  background: rgba(255, 255, 255, 0.76); /* Transparent background with low opacity */
+  border-radius: 10px;
+  padding: 40px 40px; /* Larger padding to enlarge the container */
+  width: 90%;
+  max-width: 1000px; /* Increase max width */
+  text-align: center;
+  z-index: 1; /* Ensures the content is above the overlay */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Larger shadow for better visibility */
+}
+
+/* Styling for the task items */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222; /* Dark background for task items */
+  color: white;
+  height: 35px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px; /* Rounded corners for each task */
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.checkbox .icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.task div span {
+  margin: 0 5px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+/* Styling for the create form */
+.create_form {
+  display: flex;
+  justify-content: space-between; /* Align input and button next to each other */
+  margin-bottom: 20px; /* Space between the input form and task list */
+}
+
+.create_form input {
+  width: 80%; /* Adjust input width */
+  padding: 10px;
+  border: 2px solid #444;
+  outline: none;
+  border-radius: 5px;
+}
+
+.create_form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Space between input and button */
+}
+
+.create_form button:hover {
+  background-color: #555;
+}
