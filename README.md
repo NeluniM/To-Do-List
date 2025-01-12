@@ -1,10 +1,10 @@
-# 🎯 **Modern Todo List App**  
+# 🚀 **Modern Todo List App**
 
 A feature-rich **MERN Stack** (MongoDB 🌱, Express.js 🚀, React.js ⚛️, Node.js 🟢) application built to simplify task management. Experience streamlined productivity with a sleek and responsive design!  
 
 ---
 
-## 🌟 **Key Features**  
+## 🌟 **Key Features**
 
 - ⚛️ **Interactive UI**: Real-time task management using React.  
 - 🟢 **Powerful Backend**: Efficient CRUD operations powered by Node.js & Express.js.  
@@ -14,7 +14,7 @@ A feature-rich **MERN Stack** (MongoDB 🌱, Express.js 🚀, React.js ⚛️, N
 
 ---
 
-## 🛠️ **Tech Stack**  
+## 🛠️ **Tech Stack**
 
 ### 🎨 **Frontend**  
 - ⚛️ React.js (leveraging Hooks for state management)  
@@ -32,9 +32,9 @@ A feature-rich **MERN Stack** (MongoDB 🌱, Express.js 🚀, React.js ⚛️, N
 
 ---
 
-## 📁 **Folder Structure**  
+## 📁 **Folder Structure**
 
-```plaintext  
+```plaintext
 /Server  
 ├── models  
 │   └── todo.model.js   # MongoDB schema  
@@ -54,16 +54,16 @@ A feature-rich **MERN Stack** (MongoDB 🌱, Express.js 🚀, React.js ⚛️, N
 
 ---
 
-## 🚀 **Getting Started**  
+## 🚀 **Getting Started**
 
-### 🔑 **Prerequisites**  
+### 🔑 **Prerequisites**
 
 1️⃣ Install **Node.js** 🟢 (npm is included).  
 2️⃣ Configure **MongoDB** 🌱 (either locally or via Atlas).  
 
 ---
 
-### 🟢 **Backend Setup**  
+### 🟢 **Backend Setup**
 
 1️⃣ Navigate to the `Server` folder:  
 ```bash  
@@ -84,7 +84,7 @@ node server.js
 
 ---
 
-### ⚛️ **Frontend Setup**  
+### ⚛️ **Frontend Setup**
 
 1️⃣ Move to the `frontend` directory:  
 ```bash  
@@ -105,7 +105,7 @@ npm run dev
 
 ---
 
-## 🌈 **Future Enhancements**  
+## 🌈 **Future Enhancements**
 
 - 🔐 **Authentication**: Secure user accounts for individual task lists.  
 - 🔔 **Task Notifications**: Alerts and reminders for important tasks.  
@@ -114,7 +114,7 @@ npm run dev
 
 ---
 
-## 🛠️ **Core Technologies**  
+## 🛠️ **Core Technologies**
 
 - 🖥️ **Language**: JavaScript (ES6+ with JSX)  
 - 🌱 **Database**: MongoDB (using Mongoose ORM)  
