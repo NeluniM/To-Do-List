@@ -1,4 +1,4 @@
-# 📝 ** Todo List App**
+# 📝 **Todo List App**
 
 A cutting-edge **MERN Stack** app built for seamless task management. Powered by **MongoDB 🌱**, **Express.js 🚀**, **React.js ⚛️**, and **Node.js 🟢**, it’s designed to enhance productivity with style and functionality.  
 
